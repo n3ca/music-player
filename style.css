@@ -1,0 +1,72 @@
+body {
+    background-color: #212032;
+}
+
+.spotify-player {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 650px;
+    margin-top: 350px;
+  }
+  
+  .player-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .album-cover {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .song-info {
+    flex: 1;
+  }
+  
+  .song-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .artist-name {
+    color: #8E8E8E;
+    font-size: 14px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  
+  .controls button {
+    background-color: #262626;
+    color: #8E8E8E;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .controls button:hover {
+    background-color: #3E3E3E;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background-color: #3E3E3E;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #1DB954;
+  }
